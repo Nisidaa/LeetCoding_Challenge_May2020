@@ -12,10 +12,6 @@
 # -10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4
 # coordinates contains no duplicate point.
 
-
-
-
-
 class Solution:
     def checkStraightLine(self, coordinates: list) -> bool:
         for point in range(2, len(coordinates)):
